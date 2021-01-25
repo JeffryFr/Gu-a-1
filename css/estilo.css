@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+    width: 100%;
+    position: relative;
+    animation-name: fondo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fondo{
+    0%{
+        background-color: #CC0000;
+    }
+
+    25%{
+        background-color: #FFFE29;
+    }
+
+    50%{
+        background-color: #618C03;
+    }
+
+    75%{
+        background-color: #192DA1;
+    }
+
+    100%{
+        background-color: #6E137F;
+    }
+}
+
+body table{
+    width: 60%;
+    font-size: 2em;
+    color: white;
+    margin-left: 20%;
+    margin-top: 6%;
+    border-radius: 5px;
+}
+
+body table th, body table td{
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 10px;
+}
+
+body table td ul{
+    list-style: none;
+}
+
