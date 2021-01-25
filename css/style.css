@@ -121,6 +121,13 @@ section .contenedor{
     margin-bottom: 20px;
 }
 
+.linewhiteshort{
+    width: 150px;
+    height: 6px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
 #general_info{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2D3940;
@@ -182,4 +189,37 @@ section .contenedor2{
     justify-content: space-between;
     align-items: top;
     height: 100%;
+}
+
+/* Símbolos patrios */
+
+.simbolos_patrios{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2D3940;
+}
+
+.simbolos_patrios h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.simbolos_patrios .flor, .simbolos_patrios .arbol, .simbolos_patrios .ave, .simbolos_patrios .comida{
+    width: 20%;
+    float: left;
+    color: white;
+    background-color: #2039CC;
+    border-radius: 5px;
+    margin-left: 4%;
+    padding: .5%;
+    height: 500px;
+}
+
+.simbolos_patrios .container{
+    margin-left: 1%;
+    margin-top: 20px;
+}
+
+.simbolos_patrios .flor img, .simbolos_patrios .arbol img, .simbolos_patrios .ave img, .simbolos_patrios .comida img{
+    width: 100%;
 }
